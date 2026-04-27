@@ -8,8 +8,8 @@
 		"linkedserviceDL_accountKey": {
 			"value": ""
 		},
-		"HttpServer1_properties_typeProperties_url": {
-			"value": "https://drive.usercontent.google.com/u/0/uc?id=1bmmtkc5NLZQ4iU6Qz_7di-juuxA2kT1t&export=download"
+		"HttpLinkServerZIP_properties_typeProperties_url": {
+			"value": "https://drive.usercontent.google.com"
 		},
 		"RestService_properties_typeProperties_url": {
 			"value": "https://jsonplaceholder.typicode.com/posts"
