@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-biswajit-das"
+		},
+		"linkedserviceDL_accountKey": {
+			"value": ""
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://drive.usercontent.google.com/u/0/uc?id=1bmmtkc5NLZQ4iU6Qz_7di-juuxA2kT1t&export=download"
+		},
+		"RestService_properties_typeProperties_url": {
+			"value": "https://jsonplaceholder.typicode.com/posts"
+		},
+		"linkedserviceDL_properties_typeProperties_url": {
+			"value": "https://storageccountbiswajit.dfs.core.windows.net/"
+		},
+		"linkedserviceGit_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		}
+	}
+}
