@@ -1,0 +1,12 @@
+{
+	"name": "HttpLinkServerZIP",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://drive.usercontent.google.com",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
