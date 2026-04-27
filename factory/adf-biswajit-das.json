@@ -1,0 +1,15 @@
+{
+	"name": "adf-biswajit-das",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "94637146-a496-44df-8ece-c61363ed6666",
+		"tenantId": "06c1b210-bc29-4117-a9e3-c6e679bec464"
+	}
+}
