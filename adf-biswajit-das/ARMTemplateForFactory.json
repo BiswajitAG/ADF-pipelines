@@ -657,7 +657,7 @@
 												"typeProperties": {
 													"variableName": "latest_file",
 													"value": {
-														"value": "@activity('Get Metadata all files').output.itemName",
+														"value": "@activity('Get Metadata all files new add date').output.itemName",
 														"type": "Expression"
 													}
 												}
@@ -681,7 +681,7 @@
 												"typeProperties": {
 													"variableName": "privious_modified_date",
 													"value": {
-														"value": "@activity('Get Metadata all files').output.lastModified",
+														"value": "@activity('Get Metadata all files new add date').output.lastModified",
 														"type": "Expression"
 													}
 												}
