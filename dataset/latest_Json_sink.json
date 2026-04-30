@@ -1,0 +1,19 @@
+{
+	"name": "latest_Json_sink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "linkedserviceDL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "allfiles",
+				"fileSystem": "output"
+			}
+		},
+		"schema": {}
+	}
+}
