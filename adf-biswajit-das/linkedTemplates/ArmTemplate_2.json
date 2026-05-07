@@ -442,6 +442,36 @@
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/dataflows/transformcsv')]"
 			]
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/select file trigger')]",
+			"type": "Microsoft.DataFactory/factories/triggers",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"annotations": [],
+				"runtimeState": "Started",
+				"pipelines": [
+					{
+						"pipelineReference": {
+							"referenceName": "only required files 3",
+							"type": "PipelineReference"
+						},
+						"parameters": {}
+					}
+				],
+				"type": "ScheduleTrigger",
+				"typeProperties": {
+					"recurrence": {
+						"frequency": "Minute",
+						"interval": 3,
+						"startTime": "2026-05-08T23:55:00",
+						"timeZone": "India Standard Time"
+					}
+				}
+			},
+			"dependsOn": [
+				"[concat(variables('factoryId'), '/pipelines/only required files 3')]"
+			]
 		}
 	]
 }
